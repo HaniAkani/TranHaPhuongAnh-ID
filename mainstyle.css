@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+/*font-family: 'Yellowtail', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Yellowtail&display=swap');
+/*font-family: 'Patua One', cursive;
+font-family: 'Yellowtail', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/*font-family: 'Kaushan Script', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&display=swap');
+/*font-family: 'Italianno', cursive;
+font-family: 'Kaushan Script', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width:100%;
+	height: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.p-3{
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+header{
+	padding: 32px 0;
+	position: absolute;
+	width: 100%;
+}
+.col-1{
+	width: 8.333%;
+}
+.col-2{
+	width: 16.67%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.65%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.64%;
+}
+.col-9{
+	width: 74.97%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.63%;
+}
+.col-12{
+	width: 100%;
+}
+.p-3{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+header{
+	position: absolute;
+	width: 100%;
+}
+.logo a{
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: 'Yellowtail', cursive;
+}
+.logo a:hover{
+	color: rgba(69,69,69,1.00);
+	transition: all 1s;
+}
+.menu{
+	padding-top:20px;
+	height: 50%;
+}
+.menu ul{
+	font-family: 'Patua One', cursive;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	height: 100%;
+	align-items: center;
+	font-size: 22px;
+}
+.menu ul li{
+	margin: 0 20px;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	transition: all 1s;
+}
+.menu ul li a:hover{
+	color:rgba(208,42,44,1.00);
+}
+/*Header*/ 
+.bannerava{
+	background:rgba(255,188,189,1.00);
+	padding-top: 60px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100vh;
+}
+/*Banner*/ 
+
+.img-ava:hover{
+	
+}
+.img-ava{
+	transition: all 0.2s;
+	padding-top: 100px;
+	
+}
+.img-ava img{
+	width: 90%;
+	-webkit-box-shadow: 16px 15px 0px 5px #FF7F75; 
+box-shadow: 16px 15px 0px 5px #FF7F75;
+}
+
+.content2{
+	padding:100px;
+}
+.title{
+	
+}
+.line{
+	width: 55%;
+	height: 2px;
+	background: #4B4A4A;
+}
+.content2 h4{
+	word-spacing: 8px;
+	font-size: 14px;
+	padding-left: 15px;
+}
+.content2 h1{
+	font-size: 75px;
+	letter-spacing: 2px;
+	margin: 30px 0;
+	color:rgba(208,42,44,1.00);
+}
+.content2 p{
+
+	margin-bottom: 50px;
+}
+
+.content2 h4{
+	font-size: 50px;
+	font-family: 'Italianno', cursive;
+	transition: skew(5deg);
+}
+.content2 h1 {
+	font-size: 65px;
+	font-family: 'Patua One', cursive;
+}
+.content2 p{
+	font-family: 'Patua One', cursive;
+	font-size: 22px;
+	margin-bottom: 50px;
+	letter-spacing: 1px;
+}
+.btn{
+	padding: 20px 50px;
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	transition-duration: 1s;
+	font-size: 20px;
+}
+.btn:hover{
+	color:white;
+	background:rgba(208,42,44,1.00);
+	border: 1px solid rgba(208,42,44,1.00);
+}
+/*banner*/
+.info{
+	padding: 200px 0;
+	background: #F8F5F2;
+}
+.img-info:hover{
+	transform: rotate(10deg) scale(1.1);
+}
+.img-info{
+	transition: all 0.2s;
+}
+.img-info img{
+	width: 95%;
+}
+/*info*/
+.content3{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.content3 h4{
+	font-size: 35px;
+	font-family: 'Italianno', cursive;
+	transition: skew(5deg);
+}
+.content3 h3{
+	font-size: 55px;
+	font-family: 'Patua One', cursive;
+	color:rgba(208,42,44,1.00);
+}
+.content3 p{
+	padding-top: 45px;
+	font-family: 'Patua One', cursive;
+	font-size: 16px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.btn2{
+	margin-top: 60px;
+	padding: 20px 40px;
+	border: 2px solid rgba(208,42,44,1.00);
+	background: rgba(208,42,44,1.00);
+	color: white;
+	text-decoration: none;
+	transition-duration: 1s;
+	font-size: 20px;
+}
+.btn2:hover{
+	color: white;
+	background:black;
+	border: 2px solid black;
+}
+/*info*/
+.ability{
+	padding: 145px 0;
+	background: #F8F5F2;
+}
+.box{
+	text-align: center;
+}
+.box h2{
+	padding-top: 20px;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+	font-size: 45px;
+	font-family: 'Patua One', cursive;
+	color:rgba(208,42,44,1.00);
+}
+.box p{
+	margin: 20px 0;
+	font-size: 20px;
+	line-height: 1.4;
+	color: rgba(151,151,151,1.00);
+}
+.box:hover .icon2{
+	transform: translateY(-20px);
+	color: black;
+	
+}
+.icon2 img{
+	width: 20%;
+}
+/*ability*/
+.videoproduct{
+	padding: 145px 0;
+	background:rgba(255,188,189,1.00);
+}
+.videoproduct video{
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+.videoproduct h1{
+	font-size: 75px;
+	letter-spacing: 2px;
+	margin: 30px 0;
+	color:rgba(208,42,44,1.00);
+	text-align: center;
+	font-family: 'Patua One', cursive;
+}
+/*video*/
+.software{
+	padding: 200px 0;
+	background: #F8F5F2;
+}
+.software h3{
+	font-size: 55px;
+	font-family: 'Patua One', cursive;
+	color:rgba(208,42,44,1.00);
+}
+.software h4{
+	font-size: 35px;
+	font-family: 'Italianno', cursive;
+	transition: skew(5deg);
+}
+table,td{
+	border-collapse: collapse;
+}
+table{
+	margin: 0 auto;
+	width: 900px;
+	text-align: center;
+	padding-top: 80px;
+	
+}
+td{
+	height: 90px;
+}
+.boxA{
+	margin: 0 15px;
+	width: 350px;
+	height: 40px;
+	background:rgba(92,110,240,1.00);
+	border-radius:11px;
+	
+}
+.boxB{
+	
+	margin: 0 15px;
+	width: 200px;
+	height: 40px;
+	background:rgba(234,135,62,1.00);
+	border-radius:11px;
+}
+.boxC{
+	margin: 0 15px;
+	width: 500px;
+	height: 40px;
+	background:rgba(122,54,158,1.00);
+	border-radius:11px;
+}
+.boxD{
+	margin: 0 15px;
+	width: 480px;
+	height: 40px;
+	background:rgba(180,34,173,1.00);
+	border-radius:11px;
+}
+.boxE{
+	margin: 0 15px;
+	width: 100px;
+	height: 40px;
+	background:rgba(112,215,71,1.00);
+	border-radius:11px;
+}
+/*Software*/
+.form{
+	padding: 145px 0;
+	background:rgba(255,188,189,1.00);
+}
+.text1{
+	text-transform: none;
+    letter-spacing: 0em;
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    font-weight: 400;
+    font-style: normal;
+	padding-left: 135px;
+}
+.text2{
+	letter-spacing: 0em;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-style: normal;
+	color:rgba(208,42,44,1.00);
+	padding-left: 135px;
+}
+.text3{
+	line-height: 1.5;
+    letter-spacing: 0em;
+    font-size: 22px;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-style: italic;
+	padding-right: 300px;
+	text-align: left;
+}
+.boxform input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	outline: none;
+	border-radius: 5px;
+	border-width: 1.2px;
+	padding-left: 50px;
+	font-size:20px;
+	font-style: italic;
+}
+.boxform table td{
+	padding: 45px;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.btn3{
+	margin-top: 60px;
+	padding: 20px 40px;
+	border: 2px solid rgba(208,42,44,1.00);
+	background: rgba(208,42,44,1.00);
+	color: white;
+	text-decoration: none;
+	transition-duration: 1s;
+	font-size: 20px;
+	margin: 0 90px;
+}
+.btn3:hover{
+	color: white;
+	background:black;
+	border: 2px solid black;
+}
+/*form*/
+
+	
